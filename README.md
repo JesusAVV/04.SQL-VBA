@@ -1,17 +1,18 @@
 # 04.SQL-VBA
 Aplicación de un ETL desarrollado con SQL y VBA en Excel
 
-INDICACIONES
+## INDICACIONES
 
-1. Descargar la macro Aplicación_V1.xlsm y el archivo TXT input BALANCE_LIMA_MN_20180101.txt.
+### 1. Descargar la macro Aplicación_V1.xlsm y el archivo TXT input BALANCE_LIMA_MN_20180101.txt.
 
-2. Editar la ruta donde se encuentre el archivo TXT input.
+### 2. Editar la ruta donde se encuentre el archivo TXT input.
 En la macro, la ruta se encuentra en el módulo Extraccion.
 
 ![alt text](https://github.com/JesusAVV/04.SQL-VBA/blob/master/Ruta.jpg)
 
-3. En la base de datos, crear las tablas dbo.BALANCE_VBA y dbo.INDICADORES_VBA
+### 3. En la base de datos, crear las tablas dbo.BALANCE_VBA y dbo.INDICADORES_VBA
 
+```
 CREATE TABLE dbo.BALANCE_VBA
 ([FECHA PROCESO] varchar(8) NULL,
 CUENTA varchar(20) NULL,
@@ -27,5 +28,6 @@ CREATE TABLE dbo.INDICADORES_VBA
 INDICADOR varchar(100) NULL,
 RESULTADO decimal(28,2) NULL
 )
+```
 
-4. Ejecutar la macro según el orden de los botones.
+### 4. Ejecutar la macro según el orden de los botones.
