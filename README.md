@@ -8,7 +8,7 @@ Aplicación de un ETL desarrollado con SQL y VBA en Excel
 ### 2. Editar la ruta donde se encuentre el archivo TXT input.
 En la macro, la ruta se encuentra en el módulo Extraccion.
 
-![alt text](https://github.com/JesusAVV/04.SQL-VBA/blob/master/Ruta.jpg)
+![alt text](https://github.com/JesusAVV/04.SQL-VBA/blob/master/ETL%20Application%20SQL-VBA.jpg)
 
 ### 3. En la base de datos, crear las tablas dbo.BALANCE_VBA y dbo.INDICADORES_VBA
 
